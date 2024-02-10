@@ -56,18 +56,18 @@ function Amenazas() {
                         <b>Malware:</b> consisten en software maliciosos que se ejecutan en los sistemas operativos a fin de acceder a información sensible. Hay algunos que necesitan que el usuario los ejecute para que puedan ponerse en marcha como los virus, pero hay otros que pueden introducirse sin que los usuarios realicen alguna acción y pasan más tiempo sin ser detectados como gusanos y troyanos.
                     </li>
                     
-                    <NavLink to={"/amenazas/malware"} className="text-xl border-b border-blue-500 hover:font-bold text-blue-400">mas informacion sobre el malware</NavLink>
+                    <NavLink to={"/amenazas/malware"} reloadDocument className="text-xl border-b border-blue-500 hover:font-bold text-blue-400">mas informacion sobre el malware</NavLink>
                     <li className="py-2">
                         <b>Phishing:</b> a través de técnicas de ingeniería social los delincuentes suplantan la identidad de personas de confianza para los usuarios y los convencen para obtener información de valor como datos bancarios.</li>
-                        <NavLink to={'/amenazas/phishing'}  className="text-xl border-b border-blue-500 hover:font-bold text-blue-400">mas informacion sobre el Phishing</NavLink>
+                        <NavLink to={'/amenazas/phishing'} reloadDocument  className="text-xl border-b border-blue-500 hover:font-bold text-blue-400">mas informacion sobre el Phishing</NavLink>
                         <li className="py-2">
                            <b>Ataques de inyección SQL:</b>  consiste en la introducción de códigos maliciosos a través de vulnerabilidades de una aplicación web para acceder a los servidores y extraer información. En este tipo de ataques lo usuarios del sitio web no tienen forma de cómo defenderse, ya que el problema no está en ellos o sus equipos sino en el sitio web y los únicos que pueden solucionar el problema son los administradores.
                         </li>
-                        <NavLink  to={"/amenazas/inyeccion-sql"}  className="text-xl border-b border-blue-500 hover:font-bold text-blue-400">mas informacion sobre los Ataques de inyecccion SQL</NavLink>
+                        <NavLink  to={"/amenazas/inyeccion-sql"}  reloadDocument className="text-xl border-b border-blue-500 hover:font-bold text-blue-400">mas informacion sobre los Ataques de inyecccion SQL</NavLink>
                         <li className="py-2">
                            <b>Denegación de servicio (DoS):</b>  en esta modalidad de ataque los ciberdelincuentes infectan con gusanos diferentes equipos y a través de ellos saturan sitios web, impidiendo que este pueda funcionar a causa del exceso de tráfico. Debido a que son ejecutados desde diferentes equipos y direcciones IP, resulta difícil detener este tipo de ciberataque.
                         </li>
-                        <NavLink to={"/amenazas/dos"} className="text-xl border-b border-blue-500 hover:font-bold text-blue-400">mas informacion sobre el Ataque de denegacion de Servicios</NavLink>
+                        <NavLink to={"/amenazas/dos"} reloadDocument className="text-xl border-b border-blue-500 hover:font-bold text-blue-400">mas informacion sobre el Ataque de denegacion de Servicios</NavLink>
                 </ul>
 
 
